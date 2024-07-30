@@ -1,26 +1,36 @@
-.main-bg{
-    background-image: url("./images/spectrum-gradient.svg");
-    background-size: cover;
-    background-position:center;
+*{
+  scroll-behavior: smooth;
+  text-decoration: none;
 }
 
-.menu{
+html{
+  font-size: 62.5%;
+}
+
+body{
+  padding: 11rem;
+  font-size: 1.6rem;
+  background-color: #b7a895;
+}
+
+.menu{  
   position: fixed;
   top:0;
   left:0;
-  right:0;
-  padding: 20px;
-  background-color: #474D78;
+  bottom:0;
+  padding: 1rem;
+  background-color: #4c413f;
 }
 
 .menu h1{
-  font-size: 25px;
+  font-size: 3rem;
 }
-
 
 .menu-content{
   display:flex;
   justify-content: space-between;
+  flex-direction: column;
+  gap:3rem;
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
@@ -29,16 +39,68 @@
 .menu ul{
   display: flex;
   list-style:none;
+  flex-direction: column;
+  gap:13rem;
 }
 
 .menu ul li a{
   display: block;
-  text-decoration: none;
-  padding:12px;
+  padding:1rem;
   color: white;
 }
 
 .menu ul li a:hover{
   opacity: 0.5;
   transform: 200ms;
+}
+
+.presentation{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.presentation h1{
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.presentation h2{
+  font-size: 3rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.presentation p{
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.biography{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.biography h1{
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.biography p{
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.projects{
+  display:flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.projects h1{
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
