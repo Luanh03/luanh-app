@@ -23,7 +23,7 @@ body{
 }
 
 .menu h1{
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .menu-content{
@@ -46,7 +46,7 @@ body{
 .menu ul li a{
   display: block;
   padding:1rem;
-  color: white;
+  color: black;
 }
 
 .menu ul li a:hover{
