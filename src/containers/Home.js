@@ -2,6 +2,7 @@ import * as react from 'react';
 import { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Confea from '../images/Confea.png';
 
 export default function Home(){
     return(
@@ -14,7 +15,7 @@ export default function Home(){
                         <ul>
                             <li><a href="#Presentation">Presentation</a></li>
                             <li><a href="#Biography">Biography</a></li>
-                            <li><a href="#Projects">Projects</a></li>
+                            <li><a href="#Experiences">Experiences</a></li>
                             <li><a href="#">Contacts</a></li>
                         </ul>
                     </nav>
@@ -34,8 +35,28 @@ export default function Home(){
                 After 1 year and 7 months on this path, I build efficient and innovative applications with .NET Framework, .NET CORE, ASP.NET CORE and more.
                 </p>
             </section>  
-            <section class="projects">
-                <h1 id="Projects">Projects</h1>
+            <section class="experiences">
+                <h1 id="Experiences">Projects</h1>
+                <div class="divExp">
+                    <div class="divExpImg">
+                        <img src={Confea} />
+                    </div>
+                    <div class="divExpText">
+                        <h3>Estágio em Desenvolvimento FullStack</h3>
+                        <ul>
+                            <li>Atuei como desenvolvedor FullStack (C#)</li>
+                            <li>.NET Core</li>
+                            <li>.NET Framework</li>
+                            <li>ASP .NET Core</li>
+                            <li>SQL Server</li>
+                            <li>Entity Framework</li>
+                            <li>API REST</li>
+                        </ul>
+                    </div>
+                    <div class="divExpDate">
+                        <p>Maio 2023 - moment</p>
+                    </div>    
+                </div>
             </section>
         </body>
     );
