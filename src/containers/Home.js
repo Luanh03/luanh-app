@@ -3,10 +3,14 @@ import { useLayoutEffect } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import Confea from '../images/Confea.png';
+import Linkedin from '../images/linkedin.svg';
+import GitHub from '../images/github.svg';
+import Email from '../images/email.svg';
+import Telephone from '../images/telephone.svg';
 
-export default function Home(){
-    return(
-        
+export default function Home() {
+    return (
+
         <body>
             <aside class="menu">
                 <section class="menu-content">
@@ -16,27 +20,32 @@ export default function Home(){
                             <li><a href="#Presentation">Presentation</a></li>
                             <li><a href="#Biography">Biography</a></li>
                             <li><a href="#Experiences">Experiences</a></li>
-                            <li><a href="#">Contacts</a></li>
+                            <li><a href="#Contacts">Contacts</a></li>
                         </ul>
                     </nav>
                 </section>
             </aside>
-            <section class="presentation"id="Presentation">
+            <section class="presentation" id="Presentation">
                 <h1 >Hello, I'm Luan Henrique!</h1>
                 <h2>FullStack Developer</h2>
-                <p>I'm passionate about technology, with a hyperfocus on code development. My journey started in college with simple problems that easily took my full attention. Over time, I improved my skills as a FullStack Web Developer at the Federal Council of Engineering and Agronomy, 
+                <p>I'm passionate about technology, with a hyperfocus on code development. My journey started in college with simple problems that easily took my full attention. Over time, I improved my skills as a FullStack Web Developer at the Federal Council of Engineering and Agronomy,
                     with challenging and innovative projects. Every day that passes my passion increases and I am ready to gain even more experience.</p>
-            </section>    
+            </section>
             <section id="Biography" class="biography">
                 <h1>About me</h1>
-                <p>I am a back-end developer, with extensive experience in .NET CORE, .NET Framework and ASP.NET CORE. 
+                <p>I am a back-end developer, with extensive experience in .NET CORE, .NET Framework and ASP.NET CORE.
                     I am determined to solve technical system problems, improving user usability, efficient performance and clean code.<br />
-                <br/>I started my journey as a fullstack web developer, and I have always tried to constantly evolve and acquire as much knowledge as possible, facing new challenges and interacting with current technologies. 
-                After 1 year and 7 months on this path, I build efficient and innovative applications with .NET Framework, .NET CORE, ASP.NET CORE and more.
+                    <br />I started my journey as a fullstack web developer, and I have always tried to constantly evolve and acquire as much knowledge as possible, facing new challenges and interacting with current technologies.
+                    After 1 year and 7 months on this path, I build efficient and innovative applications with .NET Framework, .NET CORE, ASP.NET CORE and more.
                 </p>
-            </section>  
+                <div>
+                    <p>You can find a little more about me on this platform: </p>
+                    <a href="https://github.com/Luanh03" target="_blank"><img src={GitHub} /></a>
+                    <a href="https://www.linkedin.com/in/luan-henrique-47ab98254/" target="_blank"><img src={Linkedin} /></a>
+                </div>
+            </section>
             <section class="experiences">
-                <h1 id="Experiences">Projects</h1>
+                <h1 id="Experiences">Experiences</h1>
                 <div class="divExp">
                     <div class="divExpImg">
                         <img src={Confea} />
@@ -55,8 +64,13 @@ export default function Home(){
                     </div>
                     <div class="divExpDate">
                         <p>Maio 2023 - moment</p>
-                    </div>    
+                    </div>
                 </div>
+            </section>
+            <section class="contacts">
+                <h1 id="Contacts">Contacts</h1>
+                <p>If you're looking for a developer, have questions, or just want to connect, feel free to get in touch.</p>
+            
             </section>
         </body>
     );

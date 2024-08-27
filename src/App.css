@@ -1,149 +1,164 @@
-*{
+* {
   scroll-behavior: smooth;
   text-decoration: none;
 }
 
-html{
+html {
   font-size: 62.5%;
 }
 
-body{
+body {
   padding: 11rem;
   font-size: 1.6rem;
   background-color: #b7a895;
 }
 
-.menu{  
+h1{
+  font-size: 5rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p{
+  font-size: 2.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.menu {
   position: fixed;
-  top:0;
-  left:0;
-  bottom:0;
+  top: 0;
+  left: 0;
+  bottom: 0;
   padding: 1rem;
   background-color: #4c413f;
 }
 
-.menu h1{
-  font-size: 5rem;
-}
-
-.menu-content{
-  display:flex;
+.menu-content {
+  display: flex;
   justify-content: space-between;
   flex-direction: column;
-  gap:3rem;
+  gap: 3rem;
   align-items: center;
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.menu ul{
+.menu ul {
   display: flex;
-  list-style:none;
+  list-style: none;
   flex-direction: column;
-  gap:13rem;
+  gap: 13rem;
 }
 
-.menu ul li a{
+.menu ul li a {
   display: block;
-  padding:1rem;
+  padding: 1rem;
   color: black;
 }
 
-.menu ul li a:hover{
+.menu ul li a:hover {
   opacity: 0.5;
   transform: 200ms;
 }
 
-.presentation{
-  display:flex;
+.presentation {
+  display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
-.presentation h1{
-  font-size: 5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.presentation h2{
+.presentation h2 {
   font-size: 3rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.presentation p{
-  font-size: 2.5rem;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.biography{
-  display:flex;
+.biography {
+  display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
-.biography h1{
-  font-size: 5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.biography p{
+.biography p {
   font-size: 2.5rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.experiences{
-  display:flex;
+.biography div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.biography div img{
+  width: 3rem;
+  height:4rem;
+  margin:0.6rem;
+}
+
+.experiences {
+  display: flex;
   flex-direction: column;
   height: 100vh;
   width: 100%;
 }
 
-.experiences h1{
-  font-size: 5rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.divExp{
-  display:flex;
+.divExp {
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background-color: white;
+  box-shadow: 10px 8px 6px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0.8rem;
 }
 
-.divExpImg{
-  width:25%;
+.divExpImg {
+  width: 25%;
+  display: flex;
+  justify-content: center;
 }
 
-.divExpImg img{
+.divExpImg img {
   width: 20rem;
-  height:20rem;
+  height: 20rem;
 }
 
-.divExpText{
+.divExpText {
   display: flex;
   flex-direction: column;
   text-align: center;
-  width:50%;
+  width: 50%;
 }
 
-.divExpText h3{
+.divExpText h3 {
   font-size: 3rem;
   font-weight: bold;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.divExpText ul{
+.divExpText ul {
   list-style-type: disc;
   font-size: 1.8rem;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.divExpDate{
-    display: flex;
-    place-self: end;
-    width:25%;
-    font-size: 2rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.divExpDate {
+  width: 25%; 
 }
+
+.divExpDate p{
+  margin:0 1rem 19rem 0;
+  text-align: right;
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+
