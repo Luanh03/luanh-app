@@ -69,8 +69,15 @@ export default function Home() {
             </section>
             <section class="contacts">
                 <h1 id="Contacts">Contacts</h1>
-                <p>If you're looking for a developer, have questions, or just want to connect, feel free to get in touch.</p>
-            
+                <div class="divLinkContacts">
+                    <p>If you're looking for a developer, have questions, or just want to connect, feel free to get in touch.</p>
+                    <a href="mailto:luanhcosta03@outlook.com">
+                        <img src={Email} />luanhcosta03@outlook.com
+                    </a>
+                    <a href="tel:+5561993152107">
+                        <img src={Telephone} />+55 61993152107
+                    </a>
+                </div>
             </section>
         </body>
     );

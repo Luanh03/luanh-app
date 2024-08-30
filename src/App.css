@@ -10,7 +10,7 @@ html {
 body {
   padding: 11rem;
   font-size: 1.6rem;
-  background-color: #b7a895;
+  background-color: white;
 }
 
 h1{
@@ -96,6 +96,10 @@ p{
   margin:0.6rem;
 }
 
+.biography div img:hover{
+  cursor: grab;
+}
+
 .experiences {
   display: flex;
   flex-direction: column;
@@ -157,8 +161,30 @@ p{
 .contacts{
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 30vh;
   width: 100%;
 }
 
+.divLinkContacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.divLinkContacts a {
+  display: flex;
+  justify-content: center;
+  font-size: 3.5rem;
+  color: black;
+}
+
+.divLinkContacts img{
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.8rem;
+}
+
+.divLinkContacts a:hover{
+  cursor: grab;
+}
