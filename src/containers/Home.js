@@ -20,6 +20,7 @@ export default function Home() {
                             <li><a href="#Presentation">Presentation</a></li>
                             <li><a href="#Biography">Biography</a></li>
                             <li><a href="#Experiences">Experiences</a></li>
+                            <li><a href="#Skills">Skills</a></li>
                             <li><a href="#Contacts">Contacts</a></li>
                         </ul>
                     </nav>
@@ -67,6 +68,9 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+            <section class="skills">
+                <h1 id="Skills">Skills</h1>
+            </section>               
             <section class="contacts">
                 <h1 id="Contacts">Contacts</h1>
                 <div class="divLinkContacts">
@@ -77,6 +81,11 @@ export default function Home() {
                     <a href="tel:+5561993152107">
                         <img src={Telephone} />+55 61993152107
                     </a>
+                    <p><br />If you prefer, you can find me on these platforms!</p>
+                </div>
+                <div class="divFooterContacts">
+                    <a href="https://github.com/Luanh03" target="_blank"><img src={GitHub} /></a>
+                    <a href="https://www.linkedin.com/in/luan-henrique-47ab98254/" target="_blank"><img src={Linkedin} /></a>
                 </div>
             </section>
         </body>
