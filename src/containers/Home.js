@@ -7,6 +7,7 @@ import Linkedin from '../images/linkedin.svg';
 import GitHub from '../images/github.svg';
 import Email from '../images/email.svg';
 import Telephone from '../images/telephone.svg';
+import Git from '../images/Git.svg';
 
 export default function Home() {
     return (
@@ -70,6 +71,68 @@ export default function Home() {
             </section>
             <section class="skills">
                 <h1 id="Skills">Skills</h1>
+                <div class="divSkills">
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>C#</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>.NET</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>.NET CORE</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>.NET Framework</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>ASP .NET</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>ASP .NET CORE</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>Entity Framework</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>HTML5</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>CSS</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>JavaScript</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>React JS</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>SQL Server</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>MySql</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>Figma</p>
+                    </div>
+                    <div class="divSkillsIcons">
+                        <a><img src={Git} /></a>
+                        <p>Git</p>
+                    </div>
+                </div>
             </section>               
             <section class="contacts">
                 <h1 id="Contacts">Contacts</h1>
