@@ -8,6 +8,19 @@ import GitHub from '../images/github.svg';
 import Email from '../images/email.svg';
 import Telephone from '../images/telephone.svg';
 import Git from '../images/Git.svg';
+import CSharp from '../images/CSharp.png';
+import DotNet from '../images/DotNet.png';
+import DotNetCORE from '../images/DotNetCORE.png';
+import AspNetCore from '../images/ASP.NETCORE.png';
+import EntityFramework from '../images/EntityFramework.png';
+import JavaScript from '../images/JavaScript.svg';
+import HTML5 from '../images/HTML5.svg';
+import CSS3 from '../images/CSS3.svg';
+import React from '../images/React.svg';
+import Figma from '../images/Figma.svg';
+import SQLServer from '../images/SQLServer.svg';
+import MySQL from '../images/MySQL.svg';
+
 
 export default function Home() {
     return (
@@ -73,59 +86,51 @@ export default function Home() {
                 <h1 id="Skills">Skills</h1>
                 <div class="divSkills">
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={CSharp} /></a>
                         <p>C#</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={DotNet} /></a>
                         <p>.NET</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={DotNetCORE} /></a>
                         <p>.NET CORE</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
-                        <p>.NET Framework</p>
-                    </div>
-                    <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
-                        <p>ASP .NET</p>
-                    </div>
-                    <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={AspNetCore} /></a>
                         <p>ASP .NET CORE</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={EntityFramework} /></a>
                         <p>Entity Framework</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={HTML5} /></a>
                         <p>HTML5</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={CSS3} /></a>
                         <p>CSS</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={JavaScript} /></a>
                         <p>JavaScript</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
-                        <p>React JS</p>
+                        <a><img src={React} /></a>
+                        <p>React</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={SQLServer} /></a>
                         <p>SQL Server</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={MySQL} /></a>
                         <p>MySql</p>
                     </div>
                     <div class="divSkillsIcons">
-                        <a><img src={Git} /></a>
+                        <a><img src={Figma} /></a>
                         <p>Figma</p>
                     </div>
                     <div class="divSkillsIcons">
@@ -133,7 +138,7 @@ export default function Home() {
                         <p>Git</p>
                     </div>
                 </div>
-            </section>               
+            </section>                  
             <section class="contacts">
                 <h1 id="Contacts">Contacts</h1>
                 <div class="divLinkContacts">

@@ -204,21 +204,28 @@ p {
   cursor: grab;
 }
 
+.skills{
+  width: 100%;
+  height: 100vh;
+}
+
 .divSkills {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 2rem;
+  gap: 7rem;
 }
 
 .divSkillsIcons {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .divSkillsIcons img {
   width: 10rem;
-  height: 15rem;
+  height: 10rem;
 }
 
 .divSkills p {
